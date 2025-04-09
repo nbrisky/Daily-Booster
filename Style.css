@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  #quote {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .credit {
+    position: fixed;
+    bottom: 4px; /* smaller number = closer to bottom */
+    left: 8px;   /* adjust this for horizontal distance */
+    font-family: 'Futura', 'Segoe UI', sans-serif;
+    font-size: 23px;
+    font-style: italic;
+    color: #ffffffcc;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px #00000033;
+    z-index: 999;
+  }
+  
+  
+  /* Unique background for Song of the Day */
+.song-page {
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee); /* Soft pink/purple vibe */
+}
+/* Fade-in animation for quotes and songs */
+.fade {
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+
+.fade.show {
+  opacity: 1;
+}
+
+
+
+
+
